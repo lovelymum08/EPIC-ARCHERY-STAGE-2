@@ -7,7 +7,7 @@ class PlayerArcher {
       this.body = Matter.Bodies.rectangle(x, y, width, height, options);
       this.width = width;
       this.height = height;
-      this.image = loadImage("./assets/playerArcher.png");
+      this.image = loadImage("playerArcher.png");
   
       World.add(world, this.body);
   
